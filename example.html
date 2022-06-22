@@ -1,0 +1,6 @@
+<template>
+    contacts
+    <template for:each={item} for:item="i" if:true={Project_Details__c}>
+        <div key={i.Id}>{i.Name},{i.Start_Date__c}</div>
+    </template>
+</template>
